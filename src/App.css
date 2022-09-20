@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Header {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 2rem;
+  color: #36476D;
+}
