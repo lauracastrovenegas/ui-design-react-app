@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# UI Design Sample React Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
