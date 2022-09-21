@@ -1,12 +1,12 @@
 import './App.css';
 import close from './close.png'
 
-function List() {
+function List({list}) {
   return (
     <div className="List">
-      <ListItem index={1} songTitle="Fireworks" artistName="Katy Perry"></ListItem>
-      <ListItem index={2} songTitle="Party In The USA" artistName="Miley Cyrus"></ListItem>
-      <ListItem index={3} songTitle="Dynamite" artistName="Taio Cruz"></ListItem>
+      {list.map((listItem, index) => (
+        <ListItem index={index + 1} songTitle={listItem.songTitle} artistName={listItem.artistName}></ListItem>
+      ))}
     </div>
   );
 }
