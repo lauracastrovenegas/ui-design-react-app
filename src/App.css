@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 2rem;
 }
 
 .Header {
@@ -7,4 +8,44 @@
   font-weight: 700;
   margin: 2rem;
   color: #36476D;
+}
+
+.Form {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+}
+
+.form-input {
+  border:0;
+  border-bottom: 2px solid #AFB1B5;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: transparent;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  color: #AFB1B5;
+  font-weight: 600;
+}
+
+.form-button {
+  background-color: #5954C8;
+  color: #FFFFFF;
+  border-radius: 20px;
+  height: fit-content;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: auto 0.5rem;
+}
+
+.form-button:hover {
+  background-color: #4E49AB;
+  cursor: pointer;
 }

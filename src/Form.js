@@ -2,9 +2,11 @@ import './App.css';
 
 function Form() {
   return (
-    <div className="Form">
-      <div>Form</div>
-    </div>
+    <form className="Form">
+      <input className="form-input" type="text" id="name" placeholder="Song Title"></input>
+      <input className="form-input" type="text" id="name" placeholder="Artist"></input>
+      <button className="form-button">ADD</button>
+    </form>
   );
 }
 
