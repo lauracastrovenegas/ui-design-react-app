@@ -30,7 +30,7 @@ function App() {
   }
 
   function handleDelete(itemIndex) {
-    const newList = songList.splice(itemIndex, 1);
+    const newList = songList.slice(0,itemIndex).concat(songList.slice(itemIndex + 1));
 
     setSongList(newList);
   }
