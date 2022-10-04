@@ -1,12 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F1F4FD;
+}
+
 .App {
   text-align: center;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .Header {
   font-size: 40px;
   font-weight: 700;
-  margin: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
   color: #36476D;
 }
 
@@ -19,7 +24,7 @@
   display: flex;
   flex-direction: row;
   background-color: #FFFFFF;
-  padding: 1rem 1.3rem;
+  padding: 1.2rem 1.5rem;
   border-radius: 20px;
   text-align: left;
   margin: 1rem 0rem;
@@ -28,13 +33,13 @@
 
 .item-primary-text {
   color: #36476D;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .item-secondary-text {
   color: #828EA6;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1rem;
 }
 
