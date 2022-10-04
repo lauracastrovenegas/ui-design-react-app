@@ -16,4 +16,4 @@ You may also see any lint errors in the console.
 
 ### `npm install`
 
-Installs all dependencies needed by the app. You might have to run this before being able to run `npm start`.\
+Installs all dependencies needed by the app. You might have to run this before being able to run `npm start`
