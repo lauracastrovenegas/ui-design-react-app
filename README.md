@@ -4,15 +4,16 @@ This project is a sample react app for Professor Smith's UI Design React Lecture
 
 Each branch of the project is a "version" of the project that corresponds to the steps taken within the lecture to create this app.
 
-Here is a breakdown of each version of the project:
+## Here is a breakdown of each version of the project:
 
-Version 0.5: Basic HTML and CSS static version of the page. No React.
-
-Version 1: Static React version of the app with hard-coded data.
-
-version 2: Dynamic React version of the app using variables and dynamic rendering of lists. No functionality.
-
-Version 3: Dynamic React version of the app using state to add functionality to the app. 
+| Version (branch name)  | Description |
+| ------------- | ------------- |
+| **master**  | Clean, freshly made, new React App. This is the file structure expected after running the `npx create-react-app` command.  |
+| **basic_html**  | Basic HTML and CSS static version of the page. No React. |
+| **version-0.5**  | Static React version of the app after copying and pasting the existing HTML and CSS from the HTML and CSS files into the React project. |
+| **version-1**  | Static React version of the app with hard-coded data. |
+| **version-2**  | Dynamic React version of the app using variables and dynamic rendering of lists. No functionality. |
+| **version-3**  | Dynamic React version of the app using state to add functionality to the app.  |
 
 ## Available Scripts
 
