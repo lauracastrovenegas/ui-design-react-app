@@ -2,7 +2,7 @@
 
 This project is a sample react app for Professor Smith's UI Design React Lecture.
 
-Each branch of the project is a "version" of the project that corresponds to the steps taken within the lecture to create this app.
+Each branch of this repository is a "version" of the project that corresponds to the steps taken within the lecture to create this app.
 
 ## Here is a breakdown of each version of the project:
 
